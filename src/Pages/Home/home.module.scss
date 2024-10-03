@@ -1,0 +1,123 @@
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #242424;
+    margin-left: 32px;
+}
+
+.MainBlock {
+    margin-top: 14px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.block {
+    padding: 35px 65px 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 353px;
+    border-radius: 12px;
+    width: 1000px;
+    background-color: #EEF4FF;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.list::before {
+    content: "";
+    background-image: url(../../assets/img/left_angle.svg);
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: -40px;
+    cursor: pointer;
+}
+
+.list::after {
+    content: "";
+    background-image: url(../../assets/img/right_angle.svg);
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: -40px;
+    cursor: pointer;
+}
+
+.mreaded {
+    padding-top: 14px;
+}
+
+.link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #242424;
+}
+
+.booktitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.booktext {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 133%;
+    color: white;
+    margin-bottom: 77px;
+}
+
+.bookblock {
+    background-color: #3748A6;
+    width: 262px;
+    padding: 32px 27px 38px 22px;
+    border-radius: 12px;
+    height: 353px;
+}
+
+.btn {
+    padding: 12px 24px 12px 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #242424;
+    background-color: white;
+    border-radius: 14px;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: "";
+    background-image: url(../../assets/img/heart.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    left: 24px;
+}

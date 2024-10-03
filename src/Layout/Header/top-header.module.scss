@@ -1,0 +1,112 @@
+.select {
+    border: none;
+    color: #3F51B4;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 0 9px 24px;
+
+}
+
+.selectBlock {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #e1e1e1;
+    border-radius: 14px 0 0 14px;
+    width: 180px;
+    padding-left: 24px;
+    padding-right: 16px;
+}
+
+.input {
+    border: 1px solid #e1e1e1;
+    border-radius: 0 14px 14px 0;
+    background: #f8f8f8;
+    outline: none;
+    width: 450px;
+    padding: 13px 70px 13px 30px;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+.inputBlock {
+    width: 555px;
+    position: relative;
+}
+
+.inputBlock::before {
+    content: "";
+    width: 2px;
+    height: 43px;
+    background-color: #e1e1e1;
+    display: block;
+    position: absolute;
+    right: 70px;
+}
+
+.inputBlock::after {
+    content: "";
+    background-image: url(../../assets/img/search.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    right: 27px;
+}
+
+.block {
+    display: flex;
+    gap: 4px;
+
+}
+
+.mainBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0;
+}
+
+.lang {
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #3F51B4;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.langBlock {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 16px 9px 16px;
+    border-radius: 14px;
+    background-color: #EEF4FF;
+}
+
+.profile {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.profBlock {
+    padding: 7px 24px 7px 24px;
+    border-radius: 14px;
+    background-color: #3F51B5;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.proMain {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

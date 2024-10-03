@@ -1,0 +1,39 @@
+.block {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #11142d;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #11142d;
+    margin-bottom: 10px;
+}
+
+.street {
+    font-weight: 600;
+    font-size: 18px;
+    color: #11142d;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.innertitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #aaa;
+}
