@@ -8,7 +8,6 @@ export const Header = () => {
     <>
       <TopHeader />
       <hr className={style.hr} />
-
       <div className="container">
         <div className={style.block}>
           <Link className={style.link}  to={"/home"}>
@@ -17,8 +16,8 @@ export const Header = () => {
           <Link className={style.link} to={"/user"}>
             User
           </Link>
-          <Link className={style.link} to={"/contact"}>
-            Contact
+          <Link className={style.link} to={"/profile"}>
+            Profile
           </Link>
         </div>
       </div>

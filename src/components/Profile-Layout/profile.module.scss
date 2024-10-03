@@ -1,0 +1,19 @@
+.profilewrap {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+}
+
+.boxProf {
+    height: 100%;
+    background-color: #10182C;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.links{
+    color: white;
+    font-size: large;
+    font: 700;
+}

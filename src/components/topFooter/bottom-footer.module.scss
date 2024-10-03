@@ -1,0 +1,43 @@
+.title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 114%;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.MainBlock {
+    background-color: #10182C;
+    padding: 12px 0 34px 0;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+}
+
+.contact_Block {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.block {
+    display: flex;
+    // align-items: center;
+    gap: 130px;
+}
+
+.cardlist {
+    display: flex;
+    // gap: 7px;
+}
